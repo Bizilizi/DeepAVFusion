@@ -7,5 +7,5 @@ debug: False
 
 # Logging
 use_wandb: True
-wandb_entity: pmorgado
+wandb_entity: audiovisual_diagnostics
 wandb_project: efav

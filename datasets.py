@@ -298,7 +298,7 @@ class DenseVideoDataset(BaseVideoDataset):
         return dense_frames, dense_specs, anno
 
     def __repr__(self):
-        return f"DenseVideoDataset\n  - Path: {self.base_path}\n  - No Samples: {len(self)}\n  - Class Resample: {self.class_resample}\n  - Mixture: {self.num_mixtures}"
+        return f"DenseVideoDataset\n  - Path: {self.base_path}\n"
 
 
 class MixtureVideoDataset(BaseVideoDataset):
@@ -511,27 +511,52 @@ class ImageAudioDataset(Dataset):
 
 
 def get_vggsound(data_path, dataset=VideoDataset, partition='train', visual_transform=None, audio_transform=None, **kwargs):
-    data = list(csv.reader(open(f"{data_path}/annotations/vggsound.csv")))
-    data = [dt for dt in data if dt[-1] == partition]
-    dictionary = sorted(os.listdir(f"{data_path}/clips/"))
-    all_filenames, all_labels = [], []
-    for yid, t, cls, part in data:
-        cls = cls .replace(' ', '_').replace('(', '_').replace(')', '_').replace(',', '_')
-        all_filenames.append(f"{cls}/{yid}_{int(t):06d}_{int(t)+10:06d}.mp4")
-        all_labels.append(dictionary.index(cls))
+    import pandas as pd
 
-    files_available = set(['/'.join(fn.split('/')[-2:]) for fn in glob.glob(f"{data_path}/clips/*/*.mp4")])
-    filenames = [fn for fn, lbl in zip(all_filenames, all_labels) if fn in files_available]
-    class_labels = [lbl for fn, lbl in zip(all_filenames, all_labels) if fn in files_available]
+
+    data = pd.read_csv(f"{data_path}/metadata/vggsound.csv", header=0, names=['video_id', 't', 'labels', 'split'])
+    data = data[data['split'] == partition]
+    
+    all_filenames = []
+    all_labels = []
+    
+    # read label data 
+    import json
+
+    json_file = json.load(open(f"vgg_cleaned.json"))['data']
+    video_data= {"_".join(d["video_id"].split("_")[:-1]): d for d in json_file}
+
+    labels_df = pd.read_csv("class_labels_indices_vgg.csv")
+    
+    # load data from json
+    for _ , ( yid, t, cls, part) in data.iterrows():
+        
+        try:
+            video = video_data[yid]
+            
+            label = video['labels']
+            label = labels_df[labels_df['mid'] == label].iloc[0]['index']
+
+            all_labels.append(label)
+            all_filenames.append(f"{video['video_id']}.mp4")
+        except KeyError:
+            print(f"Video {yid} not found")
+
+
+    # files_available = set(['/'.join(fn.split('/')[-2:]) for fn in glob.glob(f"{data_path}/video/*.mp4")])
+    filenames = all_filenames
+    class_labels = all_labels
     # available = [idx for idx, fn in enumerate(filenames) if os.path.isfile(f"{data_path}/clips/{fn}")]
+    class_desc = labels_df['display_name'].apply(lambda x: x.replace(' ', '_')).tolist()
+    class_desc.append('310_class')
 
     return dataset(
         video_files=filenames,
-        base_path=f"{data_path}/clips",
+        base_path=f"{data_path}/video",
         visual_transform=visual_transform,
         audio_transform=audio_transform,
         class_labels=class_labels,
-        class_desc=dictionary,
+        class_desc=class_desc,
         **kwargs
     )
 

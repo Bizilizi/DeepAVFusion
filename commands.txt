@@ -1,0 +1,34 @@
+PYTHONPATH=. python launcher.py \
+    --config-name=finetune \
+    job_name=eval_finetune_vggsound \
+    checkpoint=checkpoints/deepavfusion_vitb_vggsound_ep200/checkpoints/checkpoint_latest.pth \
+    eval=True \
+    model.fusion.attn_ratio=0.25 \
+    model.fusion.mlp_ratio=1.0 \
+    data.dataset=vggsound \
+    data.data_path=/tmp/zverev/vggsound \
+    opt.epochs=100 \
+    opt.warmup_epochs=20 \
+    opt.batch_size=32 \
+    opt.accum_iter=4 \
+    opt.blr=3e-4 \
+    env.ngpu=1 \
+    env.world_size=1
+
+# linear  probing
+
+PYTHONPATH=. python launcher.py \
+    --config-name=linprobe \
+    job_name=eval_linprobe_vggsound_4gpu \
+    pretrain_job_name=deepavfusion_vitb_vggsound_ep200 \
+    model.fusion.attn_ratio=0.25 \
+    model.fusion.mlp_ratio=1.0 \
+    data.dataset=vggsound \
+    data.data_path=/tmp/zverev/vggsound \
+    opt.epochs=60 \
+    opt.warmup_epochs=10 \
+    opt.batch_size=64 \
+    opt.accum_iter=4 \
+    opt.blr=0.3 \
+    env.ngpu=4 \
+    env.world_size=1

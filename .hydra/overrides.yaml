@@ -1,0 +1,13 @@
+- job_name=linprobe_vggsound
+- pretrain_job_name=deepavfusion_vitb_vggsound_ep200
+- model.fusion.attn_ratio=0.25
+- model.fusion.mlp_ratio=1.0
+- data.dataset=vggsound
+- data.data_path=/tmp/zverev/vggsound
+- opt.epochs=60
+- opt.warmup_epochs=10
+- opt.batch_size=64
+- opt.accum_iter=4
+- opt.blr=0.3
+- env.ngpu=4
+- env.world_size=1

@@ -1,0 +1,74 @@
+env:
+  world_size: 1
+  rank: 0
+  dist_url: tcp://localhost:50001
+  dist_backend: nccl
+  port: 50001
+  node: localhost
+  distributed: true
+  seed: null
+  gpu: null
+  ngpu: 4
+  mem_gb: null
+  workers: 8
+  slurm: true
+  slurm_suffix: ''
+  slurm_partition: NORMAL
+  slurm_comment: DeepAVFusion
+  slurm_timeout: 1440
+  nodelist: node14
+  exclude: ''
+log:
+  print_freq: 100
+  save_freq: 50
+  eval_freq: 10
+  wandb_watch_freq: 0
+  debug: false
+  use_wandb: true
+  wandb_entity: audiovisual_diagnostics
+  wandb_project: efav
+worker: eval_linprobe
+output_dir: checkpoints
+job_name: linprobe_vggsound
+pretrain_job_name: deepavfusion_vitb_vggsound_ep200
+checkpoint: null
+encoder_prefix: encoder.
+pretrain_resume_epoch: latest
+eval: false
+debug: false
+model:
+  image:
+    backbone: vit_base
+    pretrained: vit_base_mae_in1k
+  audio:
+    backbone: vit_base
+    pretrained: vit_base_audiomae_as2m
+  fusion:
+    arch: factorized_mmi
+    layers: all
+    num_fusion_tkns: 16
+    num_aggr_image_tkns: 8
+    num_aggr_audio_tkns: 8
+    mlp_ratio: 1.0
+    attn_ratio: 0.25
+    num_heads: 12
+opt:
+  resume: true
+  use_amp: false
+  batch_size: 64
+  epochs: 60
+  warmup_epochs: 10
+  accum_iter: 4
+  clip_grad: null
+  weight_decay: 0.0
+  lr: null
+  blr: 0.3
+  min_lr: 0.0
+data:
+  dataset: vggsound
+  data_path: /tmp/zverev/vggsound
+  audio_rate: 16000
+  audio_dur: 3.0
+  audio_mels: 128
+  image_size: 224
+  crop_min: 0.5

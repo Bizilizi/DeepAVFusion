@@ -1,0 +1,238 @@
+{
+    "os": "Linux-6.8.0-45-generic-x86_64-with-glibc2.35",
+    "python": "3.10.11",
+    "heartbeatAt": "2025-01-09T16:14:58.372719",
+    "startedAt": "2025-01-09T16:14:57.620184",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "/home/wiss/zverev/DeepAVFusion/checkpoints/deepavfusion_vitb_vggsound_ep200/finetune_vggsound/submitit_logs"
+    ],
+    "state": "running",
+    "program": "-m submitit.core._submit",
+    "git": {
+        "remote": "git@github.com:Bizilizi/DeepAVFusion.git",
+        "commit": "2a14a7368224ed7257ee0e271fe02284008a1df4"
+    },
+    "email": "zverev@in.tum.de",
+    "root": "/home/wiss/zverev/DeepAVFusion",
+    "host": "node14",
+    "username": "zverev",
+    "executable": "/home/wiss/zverev/miniconda3/envs/efav/bin/python",
+    "cpu_count": 36,
+    "cpu_count_logical": 36,
+    "cpu_freq": {
+        "current": 3862.0525,
+        "min": 1200.0,
+        "max": 4000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3899.98,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3899.986,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3797.745,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3641.947,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4000.0,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3899.28,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3899.996,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3901.787,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4000.0,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3899.969,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3899.999,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3900.011,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3900.007,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3900.004,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3900.604,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3390.284,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3900.004,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3900.0,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3900.019,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3900.014,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3899.997,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3899.986,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3901.808,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4000.0,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3904.546,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3900.133,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3900.714,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3900.219,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3588.609,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3645.774,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3899.121,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3840.644,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3697.514,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3897.458,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 3899.947,
+            "min": 1200.0,
+            "max": 4000.0
+        },
+        {
+            "current": 4000.0,
+            "min": 1200.0,
+            "max": 4000.0
+        }
+    ],
+    "disk": {
+        "total": 755.2843322753906,
+        "used": 10.709819793701172
+    },
+    "gpu": "NVIDIA RTX A6000",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        },
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        },
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        },
+        {
+            "name": "NVIDIA RTX A6000",
+            "memory_total": 51527024640
+        }
+    ],
+    "memory": {
+        "total": 1510.5686683654785
+    }
+}

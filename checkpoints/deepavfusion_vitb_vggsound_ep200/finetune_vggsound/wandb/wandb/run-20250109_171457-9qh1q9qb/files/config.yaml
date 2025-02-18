@@ -1,0 +1,272 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.11
+    cli_version: 0.15.3
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1736439297.637291
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 49
+      - 51
+      - 53
+      - 55
+      - 63
+      2:
+      - 1
+      - 5
+      - 41
+      - 49
+      - 51
+      - 53
+      - 55
+      - 63
+      3:
+      - 13
+      - 23
+      4: 3.10.11
+      5: 0.15.3
+      8:
+      - 5
+      - 9
+env.world_size:
+  desc: null
+  value: 4
+env.rank:
+  desc: null
+  value: 0
+env.dist_url:
+  desc: null
+  value: tcp://localhost:50001
+env.dist_backend:
+  desc: null
+  value: nccl
+env.port:
+  desc: null
+  value: 50001
+env.node:
+  desc: null
+  value: localhost
+env.distributed:
+  desc: null
+  value: true
+env.seed:
+  desc: null
+  value: null
+env.gpu:
+  desc: null
+  value: null
+env.ngpu:
+  desc: null
+  value: 4
+env.mem_gb:
+  desc: null
+  value: 240
+env.workers:
+  desc: null
+  value: 2
+env.slurm:
+  desc: null
+  value: true
+env.slurm_suffix:
+  desc: null
+  value: ''
+env.slurm_partition:
+  desc: null
+  value: NORMAL
+env.slurm_comment:
+  desc: null
+  value: DeepAVFusion
+env.slurm_timeout:
+  desc: null
+  value: 1440
+env.nodelist:
+  desc: null
+  value: node14
+env.exclude:
+  desc: null
+  value: ''
+log.print_freq:
+  desc: null
+  value: 100
+log.save_freq:
+  desc: null
+  value: 50
+log.eval_freq:
+  desc: null
+  value: 10
+log.wandb_watch_freq:
+  desc: null
+  value: 0
+log.debug:
+  desc: null
+  value: false
+log.use_wandb:
+  desc: null
+  value: true
+log.wandb_entity:
+  desc: null
+  value: audiovisual_diagnostics
+log.wandb_project:
+  desc: null
+  value: efav
+worker:
+  desc: null
+  value: eval_finetune
+output_dir:
+  desc: null
+  value: /home/wiss/zverev/DeepAVFusion/checkpoints/deepavfusion_vitb_vggsound_ep200
+job_name:
+  desc: null
+  value: finetune_vggsound
+pretrain_job_name:
+  desc: null
+  value: deepavfusion_vitb_vggsound_ep200
+checkpoint:
+  desc: null
+  value: null
+encoder_prefix:
+  desc: null
+  value: encoder.
+pretrain_resume_epoch:
+  desc: null
+  value: latest
+eval:
+  desc: null
+  value: false
+debug:
+  desc: null
+  value: false
+model.image.backbone:
+  desc: null
+  value: vit_base
+model.image.pretrained:
+  desc: null
+  value: vit_base_mae_in1k
+model.audio.backbone:
+  desc: null
+  value: vit_base
+model.audio.pretrained:
+  desc: null
+  value: vit_base_audiomae_as2m
+model.fusion.arch:
+  desc: null
+  value: factorized_mmi
+model.fusion.layers:
+  desc: null
+  value: all
+model.fusion.num_fusion_tkns:
+  desc: null
+  value: 16
+model.fusion.num_aggr_image_tkns:
+  desc: null
+  value: 8
+model.fusion.num_aggr_audio_tkns:
+  desc: null
+  value: 8
+model.fusion.mlp_ratio:
+  desc: null
+  value: 1.0
+model.fusion.attn_ratio:
+  desc: null
+  value: 0.25
+model.fusion.num_heads:
+  desc: null
+  value: 12
+opt.resume:
+  desc: null
+  value: true
+opt.joint_loss:
+  desc: null
+  value: true
+opt.batch_size:
+  desc: null
+  value: 32
+opt.epochs:
+  desc: null
+  value: 100
+opt.warmup_epochs:
+  desc: null
+  value: 20
+opt.accum_iter:
+  desc: null
+  value: 4
+opt.clip_grad:
+  desc: null
+  value: null
+opt.weight_decay:
+  desc: null
+  value: 0.05
+opt.layer_decay:
+  desc: null
+  value: 0.75
+opt.smoothing:
+  desc: null
+  value: 0.1
+opt.lr:
+  desc: null
+  value: 0.0006
+opt.blr:
+  desc: null
+  value: 0.0003
+opt.min_lr:
+  desc: null
+  value: 0.0
+opt.drop_path:
+  desc: null
+  value: 0.2
+opt.attn_drop:
+  desc: null
+  value: 0.0
+opt.proj_drop:
+  desc: null
+  value: 0.0
+opt.use_amp:
+  desc: null
+  value: false
+data.dataset:
+  desc: null
+  value: vggsound
+data.data_path:
+  desc: null
+  value: /tmp/zverev/vggsound
+data.audio_rate:
+  desc: null
+  value: 16000
+data.audio_dur:
+  desc: null
+  value: 3.0
+data.audio_mels:
+  desc: null
+  value: 128
+data.image_size:
+  desc: null
+  value: 224
+data.crop_min:
+  desc: null
+  value: 0.5
+data.mixup:
+  desc: null
+  value: 1.0
+data.cutmix:
+  desc: null
+  value: 0.0
+data.cutmix_minmax:
+  desc: null
+  value: null
+data.mixup_prob:
+  desc: null
+  value: 1.0
+data.mixup_switch_prob:
+  desc: null
+  value: 0.5
+data.mixup_mode:
+  desc: null
+  value: batch

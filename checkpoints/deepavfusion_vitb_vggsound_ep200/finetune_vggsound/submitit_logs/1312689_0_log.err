@@ -1,0 +1,417 @@
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+wandb: Currently logged in as: zverev (audiovisual_diagnostics). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.19.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.3
+wandb: Run data is saved locally in /home/wiss/zverev/DeepAVFusion/checkpoints/deepavfusion_vitb_vggsound_ep200/finetune_vggsound/wandb/wandb/run-20250109_171457-9qh1q9qb
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run finetune_vggsound
+wandb: ⭐️ View project at https://wandb.ai/audiovisual_diagnostics/efav-finetune
+wandb: 🚀 View run at https://wandb.ai/audiovisual_diagnostics/efav-finetune/runs/9qh1q9qb
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+cabac decode of qscale diff failed at 21 12
+error while decoding MB 21 12, bytestream 4995
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+cabac decode of qscale diff failed at 21 12
+error while decoding MB 21 12, bytestream 4995
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+ (repeated 3 more times)
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+cabac decode of qscale diff failed at 21 12
+error while decoding MB 21 12, bytestream 4995
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+mmco: unref short failure
+ (repeated 2 more times)
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+ (repeated 3 more times)
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+slurmstepd: error: *** JOB 1312689 ON node14 CANCELLED AT 2025-01-10T17:13:23 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 1312689.0 ON node14 CANCELLED AT 2025-01-10T17:13:23 DUE TO TIME LIMIT ***
+submitit WARNING (2025-01-10 17:13:23,020) - Caught signal SIGUSR2 on node14: this job is timed-out.
+fusermount: bad mount point /tmp/zverev/vggsound: No such file or directory
+submitit WARNING (2025-01-10 17:13:23,039) - Bypassing signal SIGTERM
+submitit WARNING (2025-01-10 17:13:23,039) - Bypassing signal SIGCONT
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+wandb: Currently logged in as: zverev (audiovisual_diagnostics). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.19.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.3
+wandb: Run data is saved locally in /home/wiss/zverev/DeepAVFusion/checkpoints/deepavfusion_vitb_vggsound_ep200/finetune_vggsound/wandb/wandb/run-20250111_171443-9qh1q9qb
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Resuming run finetune_vggsound
+wandb: ⭐️ View project at https://wandb.ai/audiovisual_diagnostics/efav-finetune
+wandb: 🚀 View run at https://wandb.ai/audiovisual_diagnostics/efav-finetune/runs/9qh1q9qb
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+cabac decode of qscale diff failed at 21 12
+error while decoding MB 21 12, bytestream 4995
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+ (repeated 3 more times)
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+ (repeated 4 more times)
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+wandb: ERROR Error while calling W&B API: context deadline exceeded (<Response [500]>)
+wandb: ERROR Error while calling W&B API: context deadline exceeded (<Response [500]>)
+wandb: ERROR Error while calling W&B API: context deadline exceeded (<Response [500]>)
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+mmco: unref short failure
+mmco: unref short failure
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+submitit WARNING (2025-01-12 17:10:27,009) - Caught signal SIGUSR2 on node14: this job is timed-out.
+fusermount: failed to unmount /tmp/zverev/vggsound: Device or resource busy
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 1312689 ON node14 CANCELLED AT 2025-01-12T17:10:27 DUE TO JOB REQUEUE ***
+slurmstepd: error: *** STEP 1312689.0 ON node14 CANCELLED AT 2025-01-12T17:10:27 DUE TO JOB REQUEUE ***
+submitit WARNING (2025-01-12 17:10:27,063) - Bypassing signal SIGCONT
+submitit WARNING (2025-01-12 17:10:27,066) - Bypassing signal SIGCONT
+submitit WARNING (2025-01-12 17:10:27,069) - Bypassing signal SIGTERM
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+wandb: Currently logged in as: zverev (audiovisual_diagnostics). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.19.2 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.3
+wandb: Run data is saved locally in /home/wiss/zverev/DeepAVFusion/checkpoints/deepavfusion_vitb_vggsound_ep200/finetune_vggsound/wandb/wandb/run-20250112_171518-9qh1q9qb
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Resuming run finetune_vggsound
+wandb: ⭐️ View project at https://wandb.ai/audiovisual_diagnostics/efav-finetune
+wandb: 🚀 View run at https://wandb.ai/audiovisual_diagnostics/efav-finetune/runs/9qh1q9qb
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py:459: UserWarning: Applied workaround for CuDNN issue, install nvrtc.so (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995026/work/aten/src/ATen/native/cudnn/Conv_v8.cpp:80.)
+  return F.conv2d(input, weight, bias, self.stride,
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+cabac decode of qscale diff failed at 21 12
+error while decoding MB 21 12, bytestream 4995
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+mmco: unref short failure
+Reserved bit set.
+Prediction is not allowed in AAC-LC.
+cabac decode of qscale diff failed at 21 12
+error while decoding MB 21 12, bytestream 4995
+submitit ERROR (2025-01-12 20:22:20,286) - Submitted job triggered an exception
+Traceback (most recent call last):
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/submitit/core/_submit.py", line 11, in <module>
+    submitit_main()
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/submitit/core/submission.py", line 72, in submitit_main
+    process_job(args.folder)
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/submitit/core/submission.py", line 65, in process_job
+    raise error
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/submitit/core/submission.py", line 54, in process_job
+    result = delayed.result()
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/submitit/core/utils.py", line 133, in result
+    self._result = self.function(*self.args, **self.kwargs)
+  File "/home/wiss/zverev/DeepAVFusion/launcher.py", line 96, in __call__
+    mp.spawn(main_function, nprocs=ngpus_per_node, args=(args,))
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 239, in spawn
+    return start_processes(fn, args, nprocs, join, daemon, start_method='spawn')
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 197, in start_processes
+    while not context.join():
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 160, in join
+    raise ProcessRaisedException(msg, error_index, failed_process.pid)
+torch.multiprocessing.spawn.ProcessRaisedException: 
+
+-- Process 1 terminated with the following error:
+Traceback (most recent call last):
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/multiprocessing/spawn.py", line 69, in _wrap
+    fn(i, *args)
+  File "/home/wiss/zverev/DeepAVFusion/eval_finetune.py", line 254, in main_worker
+    evaluate(trainer.eval_model, loader_val_dense, args.opt.epochs, device, args)
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home/wiss/zverev/DeepAVFusion/eval_finetune.py", line 338, in evaluate
+    preds_image, preds_audio, preds_fusion = model(image.flatten(0, 1), audio.flatten(0, 1))
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/wiss/zverev/DeepAVFusion/models/classifier.py", line 47, in forward
+    x_image, x_audio, x_fusion = self.encoder(image, audio)
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/wiss/zverev/DeepAVFusion/models/deepavfusion.py", line 92, in forward
+    x_image = self.image.prepare_patch_tokens(image, image_ids_keep)
+  File "/home/wiss/zverev/DeepAVFusion/models/vits.py", line 95, in prepare_patch_tokens
+    x = self.patch_embed(x)
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/timm/layers/patch_embed.py", line 131, in forward
+    x = self.proj(x)
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 463, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/wiss/zverev/miniconda3/envs/efav/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 459, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: Given groups=1, weight of size [768, 3, 16, 16], expected input[24, 10, 224, 224] to have 3 channels, but got 10 channels instead
+
+srun: error: node14: task 0: Exited with exit code 1

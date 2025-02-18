@@ -1,0 +1,29 @@
+2025-01-09 17:14:57,624 INFO    MainThread:3604838 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2025-01-09 17:14:57,624 INFO    MainThread:3604838 [wandb_setup.py:_flush():76] Configure stats pid to 3604838
+2025-01-09 17:14:57,624 INFO    MainThread:3604838 [wandb_setup.py:_flush():76] Loading settings from /home/wiss/zverev/.config/wandb/settings
+2025-01-09 17:14:57,624 INFO    MainThread:3604838 [wandb_setup.py:_flush():76] Loading settings from /home/wiss/zverev/DeepAVFusion/wandb/settings
+2025-01-09 17:14:57,624 INFO    MainThread:3604838 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-01-09 17:14:57,624 INFO    MainThread:3604838 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-01-09 17:14:57,624 WARNING MainThread:3604838 [wandb_setup.py:_flush():76] Could not find program at -m submitit.core._submit
+2025-01-09 17:14:57,625 INFO    MainThread:3604838 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program': '-m submitit.core._submit'}
+2025-01-09 17:14:57,625 INFO    MainThread:3604838 [wandb_init.py:_log_setup():507] Logging user logs to /home/wiss/zverev/DeepAVFusion/checkpoints/deepavfusion_vitb_vggsound_ep200/finetune_vggsound/wandb/wandb/run-20250109_171457-9qh1q9qb/logs/debug.log
+2025-01-09 17:14:57,625 INFO    MainThread:3604838 [wandb_init.py:_log_setup():508] Logging internal logs to /home/wiss/zverev/DeepAVFusion/checkpoints/deepavfusion_vitb_vggsound_ep200/finetune_vggsound/wandb/wandb/run-20250109_171457-9qh1q9qb/logs/debug-internal.log
+2025-01-09 17:14:57,625 INFO    MainThread:3604838 [wandb_init.py:init():547] calling init triggers
+2025-01-09 17:14:57,625 INFO    MainThread:3604838 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2025-01-09 17:14:57,625 INFO    MainThread:3604838 [wandb_init.py:init():596] starting backend
+2025-01-09 17:14:57,625 INFO    MainThread:3604838 [wandb_init.py:init():600] setting up manager
+2025-01-09 17:14:57,629 INFO    MainThread:3604838 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-01-09 17:14:57,637 INFO    MainThread:3604838 [wandb_init.py:init():606] backend started and connected
+2025-01-09 17:14:57,643 INFO    MainThread:3604838 [wandb_init.py:init():700] updated telemetry
+2025-01-09 17:14:57,655 INFO    MainThread:3604838 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2025-01-09 17:14:58,262 INFO    MainThread:3604838 [wandb_run.py:_on_init():2177] communicating current version
+2025-01-09 17:14:58,324 INFO    MainThread:3604838 [wandb_run.py:_on_init():2186] got version response upgrade_message: "wandb version 0.19.2 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-01-09 17:14:58,324 INFO    MainThread:3604838 [wandb_init.py:init():787] starting run threads in backend
+2025-01-09 17:15:02,012 INFO    MainThread:3604838 [wandb_run.py:_console_start():2158] atexit reg
+2025-01-09 17:15:02,012 INFO    MainThread:3604838 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2025-01-09 17:15:02,012 INFO    MainThread:3604838 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2025-01-09 17:15:02,012 INFO    MainThread:3604838 [wandb_run.py:_redirect():2103] Redirects installed.
+2025-01-09 17:15:02,013 INFO    MainThread:3604838 [wandb_init.py:init():829] run started, returning control to user process
+2025-01-09 17:15:02,016 INFO    MainThread:3604838 [wandb_run.py:_config_callback():1286] config_cb None None {'env.world_size': 4, 'env.rank': 0, 'env.dist_url': 'tcp://localhost:50001', 'env.dist_backend': 'nccl', 'env.port': 50001, 'env.node': 'localhost', 'env.distributed': True, 'env.seed': None, 'env.gpu': None, 'env.ngpu': 4, 'env.mem_gb': 240, 'env.workers': 2, 'env.slurm': True, 'env.slurm_suffix': '', 'env.slurm_partition': 'NORMAL', 'env.slurm_comment': 'DeepAVFusion', 'env.slurm_timeout': 1440, 'env.nodelist': 'node14', 'env.exclude': '', 'log.print_freq': 100, 'log.save_freq': 50, 'log.eval_freq': 10, 'log.wandb_watch_freq': 0, 'log.debug': False, 'log.use_wandb': True, 'log.wandb_entity': 'audiovisual_diagnostics', 'log.wandb_project': 'efav', 'worker': 'eval_finetune', 'output_dir': '/home/wiss/zverev/DeepAVFusion/checkpoints/deepavfusion_vitb_vggsound_ep200', 'job_name': 'finetune_vggsound', 'pretrain_job_name': 'deepavfusion_vitb_vggsound_ep200', 'checkpoint': None, 'encoder_prefix': 'encoder.', 'pretrain_resume_epoch': 'latest', 'eval': False, 'debug': False, 'model.image.backbone': 'vit_base', 'model.image.pretrained': 'vit_base_mae_in1k', 'model.audio.backbone': 'vit_base', 'model.audio.pretrained': 'vit_base_audiomae_as2m', 'model.fusion.arch': 'factorized_mmi', 'model.fusion.layers': 'all', 'model.fusion.num_fusion_tkns': 16, 'model.fusion.num_aggr_image_tkns': 8, 'model.fusion.num_aggr_audio_tkns': 8, 'model.fusion.mlp_ratio': 1.0, 'model.fusion.attn_ratio': 0.25, 'model.fusion.num_heads': 12, 'opt.resume': True, 'opt.joint_loss': True, 'opt.batch_size': 32, 'opt.epochs': 100, 'opt.warmup_epochs': 20, 'opt.accum_iter': 4, 'opt.clip_grad': None, 'opt.weight_decay': 0.05, 'opt.layer_decay': 0.75, 'opt.smoothing': 0.1, 'opt.lr': 0.0006, 'opt.blr': 0.0003, 'opt.min_lr': 0.0, 'opt.drop_path': 0.2, 'opt.attn_drop': 0.0, 'opt.proj_drop': 0.0, 'opt.use_amp': False, 'data.dataset': 'vggsound', 'data.data_path': '/tmp/zverev/vggsound', 'data.audio_rate': 16000, 'data.audio_dur': 3.0, 'data.audio_mels': 128, 'data.image_size': 224, 'data.crop_min': 0.5, 'data.mixup': 1.0, 'data.cutmix': 0.0, 'data.cutmix_minmax': None, 'data.mixup_prob': 1.0, 'data.mixup_switch_prob': 0.5, 'data.mixup_mode': 'batch'}

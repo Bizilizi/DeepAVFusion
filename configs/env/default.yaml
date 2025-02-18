@@ -1,8 +1,8 @@
 world_size: 1
 rank: 0
-dist_url: tcp://localhost:50000
+dist_url: tcp://localhost:50001
 dist_backend: nccl
-port: 50000
+port: 50001
 node: localhost
 
 distributed: True
@@ -10,12 +10,12 @@ seed:
 gpu:
 ngpu: 1
 mem_gb:
-workers: 20
+workers: 8
 
 slurm: True
 slurm_suffix: ""
-slurm_partition: DEADLINE
-slurm_comment: "CVPR"
+slurm_partition: NORMAL
+slurm_comment: "DeepAVFusion"
 slurm_timeout: 1440
-nodelist: ""
+nodelist: "node14"
 exclude: ""

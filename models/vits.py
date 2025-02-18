@@ -63,8 +63,10 @@ class ViT(nn.Module):
 
     def load_checkpoint(self, ckpt_fn, prefix='', skip_keys_prefix=('decoder', 'mask_token')):
         try:
+            print(f"Loading checkpoint from {ckpt_fn}")
             ckpt = torch.load(ckpt_fn, map_location="cpu")
-        except Exception:
+        except Exception as e:
+            print(f"Error loading checkpoint from {ckpt_fn}: {e} \n Loading from torch hub ...")
             ckpt = torch.hub.load_state_dict_from_url(url=ckpt_fn, map_location="cpu")
 
         if 'state_dict' in ckpt:

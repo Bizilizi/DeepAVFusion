@@ -1,2 +1,10 @@
 .idea
 .DS_Store
+archive/*
+assets/models/*
+checkpoints/deepavfusion_vitb_vggsound_ep200/checkpoints/*
+<<<<<<< HEAD
+=======
+playground.ipynb
+>>>>>>> d84eb15 (feat: Add experiments)
+**/__pycache__
